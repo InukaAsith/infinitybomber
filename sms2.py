@@ -4,7 +4,7 @@ print(   "\033[1;33mPrivate Messaging!! \n Message Anyone without showing your n
 print("\033[1;31m<<<_____________________________>>>\n")
 while True:
     num=int(input("\033[1;36mNumber:"))
-    if str(num)[0:2] not in ("77","76","71","78","70"):
+    if str(num)[0:2] not in ("77","76","71","78","70","72","75"):
         print("Number එක වැරදියි!")
         continue 
     if len(str(num)) !=9:
